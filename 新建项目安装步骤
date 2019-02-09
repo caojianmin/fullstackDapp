@@ -1,0 +1,18 @@
+1.新建文件夹fullstackDapp,以管理员身份运行cmd,并进入fullstackDapp路径。
+2.初始化项目npm init。
+3.安装配置文件包：
+  npm install --save ganache-cli mocha solc web3 fs-extra
+  npm install --save truffle-hdwallet-provider
+  npm install --save next react react-dom
+  在package.json文件中添加"dev":"next dev"
+  npm run dev 执行next插件
+4.编译合约 compile.js //执行node compile.js 编译文件
+  部署合约 deploy.js
+  智能合约文件夹 contracts
+  测试文件夹 test
+5.安装Semantic UI：一个web界面编写语言
+  npm install --save semantic-ui-react
+  npm install --save semantic-ui-css
+6.安装动态路由包，生成动态页面
+  npm install next-routes --save
+  修改package.json文件中"dev": "next dev"为"dev": "node server.js"
